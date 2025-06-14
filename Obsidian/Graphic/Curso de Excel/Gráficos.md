@@ -1,0 +1,6 @@
+### [[Botões]]
+### [[Escada]]
+### [[Gráfico de emoji]]
+### [[Gráfico do termometro]]
+### [[Velocimetro]]
+### [[Waffle]]

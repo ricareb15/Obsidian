@@ -1,0 +1,6 @@
+Esse tipo de referenciação é muito útil em Dashboards. Em uma imagem do Goku por exemplo, você pode referênciar essa imagem ao nome "Goku", na qual se você digitar a fórmula "=Goku" a imagem será apresentada. Vale ressaltar que não precisa ser necessáriamente uma imagem. Para fazer uma referenciação siga o passo a passo:
+
+1. Selecione as células que estão a baixo da imagem ou clique na imagem
+2. Menu > Fórmulas > Gerenciador de nomes > Novo...
+3. Preencha o nome de sua escolha
+4. Em "Refere-se a" coloque a céluala em que está a imagem, etc... 

@@ -1,0 +1,4 @@
+**Docker**, de maneira simples, é uma ferramenta que permite "empacotar" aplicativos e suas configurações em pequenos "containers". Pense nos containers como caixinhas mágicas onde tudo o que o aplicativo precisa para funcionar (bibliotecas, dependências, configurações etc.) está bem guardado e isolado. Essas caixinhas podem rodar em qualquer lugar: no seu computador, em um servidor na nuvem ou até mesmo no computador de outra pessoa. Legal, né?
+
+Vamos usar outro exemplo:
+Imagine que você tem um videogame que só funciona com o controle certo, uma TV específica e uma tomada americana. O Docker seria como uma mochila que guarda tudo isso junto e permite que você jogue seu videogame em qualquer lugar, sem precisar buscar os itens corretos no lugar onde você estiver.

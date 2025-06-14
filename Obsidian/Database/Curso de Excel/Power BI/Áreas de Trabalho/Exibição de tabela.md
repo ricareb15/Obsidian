@@ -1,0 +1,1 @@
+Essa área permite visualizar os dados de forma bruta, como em uma planilha, facilitando a análise detalhada das informações antes de serem utilizadas em visualizações gráficas.- 

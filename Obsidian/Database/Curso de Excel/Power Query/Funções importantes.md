@@ -1,0 +1,2 @@
+- Remover colunas
+- Usar a primeira linha como cabeçãlho

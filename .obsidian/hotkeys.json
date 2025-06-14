@@ -1,0 +1,16 @@
+{
+  "theme-picker:open-theme-picker": [
+    {
+      "modifiers": [],
+      "key": "F10"
+    }
+  ],
+  "obsidian-admonition:insert-admonition": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Nesta seção, os usuários podem ver e gerenciar os relacionamentos entre tabelas do conjunto de dados. É essencial para estruturar corretamente o modelo de dados, garantindo que as análises sejam precisas e eficientes.

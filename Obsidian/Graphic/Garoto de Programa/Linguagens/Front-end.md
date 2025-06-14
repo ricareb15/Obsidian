@@ -1,0 +1,6 @@
+### [[CSS]]
+É uma linguagem de estilos usada para definir a apresentação visual de documentos **HTML** e **XML**, controlando cores, fontes, layouts e outros aspectos estéticos da página. A principal função do **CSS** é separar a estrutura do conteúdo da página (**HTML**) da sua apresentação visual, tornando a manutenção e atualização do site mais fácil.
+### [[HTML]]
+É a linguagem de marcação padrão para criar páginas da web. É usada para estruturar e dar significado ao conteúdo, como textos, imagens e vídeos, que são exibidos no navegador. Além de estruturar o conteúdo, o HTML também é utilizado para indicar a função de cada elemento na página e como ele se relaciona com outros elementos (como links).
+### [[JavaScript]]
+é uma linguagem de programação de alta nível, interpretada e orientada a objetos, conhecida por sua versatilidade e uso em desenvolvimento web, principalmente no lado do cliente (front-end) e também no lado do servidor (back-end) através de frameworks como Node.js. É uma ferramenta essencial para adicionar interatividade e funcionalidade dinâmica a páginas web, tornando-as mais interativas e úteis para o usuário.
