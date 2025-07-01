@@ -1,15 +1,18 @@
-Um banco de dados é um conjunto de valores e arquivos que se relacionam entre si e demostram um cadastro de pessoas, vendas, produtos, etc. A atividade pertinente a qualquer área de uma organização requer um poder grande de armazanemento de informações, ordenação, busca e direção. Com toda a certeza, a velocidade é importante e sempre levada em consideração, mas os outros pilares precisam ser garantidos. Esses pilares são:
-#### Atomicidade
-A atomicidade é responsável por garantir que uma trasação seja gravada com sucesso e garantida ou é realizado o rollback de toda transação para que o banco de dados retorne ao estado anterior daquela transação. A famosa regra do "tudo ou nada", ou toda a transação é salva com sucesso no banco ou toda a transação é decartada. 
-#### Isolamento
-Este pilar representa a independência de cada transação no sistema de gerenciamento de banco de dados. Cada transação é unica e independente. Imagine que exista apenas uma unidade de um produto em estoque e dois clientes realizam a compra desse item no mesmo segundo, como resolver? Por sorte, por se tratar de duas transações isoladas e independentes o problema foi resolvido rapidamente, garantindo a transação que for processada em primeiro lugar.
-#### Concistência
-As regras de um sistema sempre devem ser respeitadas para que o sistema de gerenciamento tenha atendido suas características de base. Isso inclui, por exemplo, que o tipo de valor inserido seja correto em relação ao tipo de seu atributo (VARCHAR, INT, DATE, etc). O tal do "Dado certo no local esperado"
-#### Durabilidade
-Quando uma transação é finalizada, seus dados estão a salvo de qualquer modificação. Somente outra transação pode modificar os dados . Assim os dados ficam protegídos
+Um banco de dados é um <mark style="background: #FF5582A6;">conjunto de valores e arquivos que se relacionam entre si</mark> e demostram um cadastro de pessoas, vendas, produtos, etc. A atividade pertinente a qualquer área de uma organização requer um poder grande de armazenamento de informações, ordenação, busca e direção. Com toda a certeza, a velocidade é importante e sempre levada em consideração, mas os outros pilares precisam ser garantidos. Esses pilares são:
 
-### Tipos de banco de dados
-Com toda essa introdução sobre os sitemas de banco de dados, vamos abordar agora, quais são os tipos de banco de dados disponíveis e suas características e usos pelos divesos tipos de aplicações e corporações
+## Princípios
+Contudo, é essencial garantir as quatro propriedades **ACID** (do inglês: _Atomicity, Consistency, Isolation, Durability_) e são fundamentais para garantir que transações em um banco de dados sejam seguras, confiáveis e previsíveis, mesmo em caso de falhas ou acessos simultâneos.
+### Atomicidade
+A atomicidade é <mark style="background: #FFF3A3A6;">responsável por garantir que uma transação seja gravada com sucesso</mark> ou é realizado o rollback de toda transação para que o banco de dados retorne ao estado anterior daquela transação. A famosa regra do "tudo ou nada", ou toda a transação é salva com sucesso no banco ou toda a transação é descartada.
+### Isolamento
+Este pilar representa a independência de cada transação no sistema de gerenciamento de banco de dados. <mark style="background: #FFF3A3A6;">Cada transação é unica e independente</mark>. Imagine que exista apenas uma unidade de um produto em estoque e dois clientes realizam a compra desse item no mesmo segundo, como resolver? Por sorte, por se tratar de duas transações isoladas e independentes o problema foi resolvido rapidamente, garantindo a transação que for processada em primeiro lugar.
+### Consistência
+<mark style="background: #FFF3A3A6;">As regras de um sistema sempre devem ser respeitadas</mark> para que o sistema de gerenciamento tenha atendido suas características de base. Isso inclui, por exemplo, que o tipo de valor inserido seja correto em relação ao tipo de seu atributo (VARCHAR, INT, DATE, etc). O tal do "Dado certo no local esperado"
+### Durabilidade
+Quando uma transação é finalizada, <mark style="background: #FFF3A3A6;">seus dados estão a salvo de qualquer modificação</mark>. Somente outra transação pode modificar os dados . Assim os dados ficam protegidos
+
+## Tipos de banco de dados
+Com toda essa introdução sobre os sistemas de banco de dados, vamos abordar agora, quais são os tipos de banco de dados disponíveis e suas características e usos pelos diversos tipos de aplicações e corporações
 
 - MySQL
 - MariaDB
@@ -17,17 +20,17 @@ Com toda essa introdução sobre os sitemas de banco de dados, vamos abordar ago
 - PostgreSQL
 - Oracle
 - MongoDB
-### Tipos de chave
 
-#### Chave primária (PK)
-A chave primária é um campo que é definido como único e não pode repetir-se naquela tabela. Como por exemplo a chave primária para a tabela "cliente" pode-se usar o CPF que é um número único por pessoa.
+## Tipos de chave
+### Chave primária (PK)
+A chave primária é um <mark style="background: #FFF3A3A6;">campo que é definido como único e não pode repetir-se naquela tabela</mark>. Como por exemplo a chave primária para a tabela "cliente" pode-se usar o CPF que é um número único por pessoa. Além do primeiro requisito citado no começo... Nenhum dos valores pode ser `NULL` e uma tabela também não pode ter mais de uma coluna de chave primária.
 
-#### Chave secundária (FK)
-A chave estrangeira ocorre quando pegamos um atributo que é uma chave primária em outra tabela. Seguindo a mesma lógica da tabela "cliente", quando formos fazer a tabela de "vendas" podemos usar a chave estrangeira em "CPF_cliente" para que o sistema por meio deste, consiga buscar as informações do cliente.
+### Chave secundária (FK)
+Esse caso ocorre <mark style="background: #FFF3A3A6;">quando pegamos um atributo que é uma chave primária em outra tabela</mark>. Seguindo a mesma lógica da tabela "cliente", quando formos fazer a tabela de "vendas" podemos usar a chave estrangeira em "CPF_cliente" para que o sistema por meio deste, consiga buscar as informações do cliente.
 
-#### Chave Composta (?)
+### Chave Composta (?)
 
-#### Dependências funcionais
+### Dependências funcionais
 As tabelas de banco de dados devem seguir uma regra para que fiquem livres de dados incorretos ou duplicados. Para garantir essa regra, foram definidas as dependências funcionais, que ocorrem quando um valor `A` depende de um valor `B`, ou seja, uma coluna depende de outra coluna da mesma tabela. As dependências funcionais se dividem em três:
 
 ---

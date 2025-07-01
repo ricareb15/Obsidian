@@ -9,4 +9,4 @@ Adicionalmente, um _database_ (Banco de Dados) é gerenciado por um **SGBD**,
 - PostgreSQL
 - SQL Server
 ## [[Linguagem SQL]]
-Para realizar a inserção, remoção, edição ou qualquer outra atividade com os dados que irão ou estão no banco de dados, é necessária uma interação por meio da [[Linguagem SQL]] (Linguagem de Consulta Estruturada). Ela que cria a ponte necessária entre o que precisa ser feito e o banco de dados efetivamentente
+Para realizar a inserção, remoção, edição ou qualquer outra atividade com os dados que irão ou estão no banco de dados, é necessária uma interação por meio da [[Linguagem SQL]] (Linguagem de Consulta Estruturada). Ela que cria a ponte necessária entre o que precisa ser feito e o banco de dados efetivamente

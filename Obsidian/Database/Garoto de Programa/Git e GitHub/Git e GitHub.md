@@ -129,6 +129,18 @@ Este comando tem três modos principais: **soft**, **mixed** e **hard**, cada um
 `git log`
 	Pode ser utilizado o `git log --oneline` para trazer um histórico mais simplificado
 	Assim como também temos um histórico mais detalhado `git log -p`
+#### Git Alias
+No entanto, há como fazer <mark style="background: #BBFABBA6;">atalhos personalizados</mark> para cada comando
+```shell
+#Para criar o atalho
+git config alias.nome "comando original" 
+
+#Exemplo
+git config alias.log1 "log --oneline"
+
+#Normalmente fica salvo na sua máquina, mas pode também ser salvo para todos do projeto
+git config --global alias.log1 "log --oneline"
+```
 
 ### Branches
 No Git, as _branches_ (ramificações) <mark style="background: #FFF3A3A6;">são como linhas de desenvolvimento paralelas</mark> que permitem trabalhar em diferentes versões de um projeto sem afetar o código principal. Elas são essenciais para organizar e gerenciar alterações de código de forma eficiente. Aqui estão algumas operações comuns com branches:
@@ -164,19 +176,6 @@ No Git, as _branches_ (ramificações) <mark style="background: #FFF3A3A6;">são
 	- Outra forma, mantendo o histórico de commits mais limpo
 		1. `git checkout` **nome-da-branch**
 		2. `git rebase main`
-
-#### Git Alias
-No entanto, há como fazer <mark style="background: #BBFABBA6;">atalhos personalizados</mark> para cada comando
-```shell
-#Para criar o atalho
-git config alias.nome "comando original" 
-
-#Exemplo
-git config alias.log1 "log --oneline"
-
-#Normalmente fica salvo na sua máquina, mas pode também ser salvo para todos do projeto
-git config --global alias.log1 "log --oneline"
-```
 
 ### Observações / Dicas
 - Alterações no nome do arquivo

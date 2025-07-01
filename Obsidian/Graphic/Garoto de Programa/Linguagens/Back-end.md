@@ -5,3 +5,6 @@ O Python é uma linguagem de programação amplamente usada em aplicações da 
 
 ## [[Macros e VBA]]
 Se tiver tarefas no Microsoft Excel que faz repetidamente, pode gravar uma macro para automatizar essas tarefas. Uma macro **é uma ação ou um conjunto de ações que pode executar quantas vezes quiser**. Quando cria uma macro, está a gravar os cliques do rato e os batimentos de teclas.
+
+## [[Linguagem SQL]]
+Para realizar a inserção, remoção, edição ou qualquer outra atividade com os dados que irão ou estão no banco de dados, é necessária uma interação por meio da Linguagem SQL (Linguagem de Consulta Estruturada). Ela que cria a ponte necessária entre o que precisa ser feito e o banco de dados efetivamente

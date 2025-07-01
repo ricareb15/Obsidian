@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "5f112c1484164375",
+        "id": "51f9bdf22277d0f4",
         "type": "tabs",
         "children": [
           {
-            "id": "c6b02421640fe3da",
+            "id": "639e42c6a8bda8e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/Database/Garoto de Programa/Banco de dados/SQLite.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQLite"
+            }
+          },
+          {
+            "id": "71257559e14fd884",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,8 +34,23 @@
               "icon": "lucide-file",
               "title": "Git e GitHub"
             }
+          },
+          {
+            "id": "70411ee788eb5735",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/Database/Garoto de Programa/Banco de dados/Ramificações SQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ramificações SQL"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Mudando",
+                "query": "SQLite",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,11 +198,32 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "c6b02421640fe3da",
+  "active": "71257559e14fd884",
   "lastOpenFiles": [
+    "Obsidian/Database/Garoto de Programa/Banco de dados/Ramificações SQL.md",
+    "Obsidian/Database/Garoto de Programa/Banco de dados/SQLite.md",
+    "Obsidian/Database/Garoto de Programa/Linguagens/Back-end/Base/Comentários.md",
     "Garoto de Programa.md",
-    "Obsidian/Imagens/Pasted image 20250613191941.png",
+    "Obsidian/Graphic/Garoto de Programa/Banco de Dados.md",
+    "Obsidian/Database/Garoto de Programa/Linguagens/Back-end/Linguagem SQL/Linguagem SQL.md",
+    "Pasted image 20250701085458.png",
+    "Obsidian/Database/Garoto de Programa/Linguagens/Back-end/Base/Operadores.md",
     "Obsidian/Database/Garoto de Programa/Git e GitHub/Git e GitHub.md",
+    "Obsidian/Database/Garoto de Programa/Banco de dados/Banco de dados SQL.md",
+    "Obsidian/Imagens/Pasted image 20250620161305.png",
+    "Obsidian/Imagens/Captura de tela 2025-06-20 161009.png",
+    "Obsidian/Database/Garoto de Programa/Banco de dados/Diagrama de Entidade e Relacionamento (DER).md",
+    "Obsidian/Imagens/SQL.gif",
+    "Obsidian/Imagens/Captura de tela 2025-06-19 001929.png",
+    "Obsidian/Imagens/Pasted image 20250618171026.png",
+    "Progressão Aritmética.md",
+    "Obsidian/Imagens/Pasted image 20250618170820.png",
+    "Obsidian/Imagens/Pasted image 20250618170728.png",
+    "Obsidian/Imagens/left-join.gif",
+    "Obsidian/Graphic/Garoto de Programa/Linguagens/Back-end.md",
+    "Obsidian/Graphic/Garoto de Programa/Linguagens/Linguagens.md",
+    "Obsidian/Database/Garoto de Programa/Linguagens/Front-end/Java Script/JavaScript.md",
+    "Obsidian/Imagens/Pasted image 20250613191941.png",
     "Obsidian/Database/Garoto de Programa/Git e GitHub",
     "Obsidian/Database/Curso de Excel/Power BI/Áreas de Trabalho/Exibição de relatórios.md",
     "Obsidian/Database/Curso de Excel/Power BI/Áreas de Trabalho/Exibição de modelo.md",
@@ -185,35 +235,14 @@
     "Obsidian/Database/Curso de Excel/Power BI/Mapa mental/Processador (CPU) 1.md",
     "Obsidian/Database/Curso de Excel/Power BI/Mapa mental/Untitled mindmap.md",
     "Obsidian/Database/Curso de Excel/Power BI/Mapa mental/Teste - Mapa mental.md",
-    "Obsidian/Database/Garoto de Programa/Linguagens/Back-end/Base/Operadores.md",
     "Obsidian/Database/Curso de Excel/Power BI/Mapa mental",
     "Obsidian/Database/Curso de Excel/Power BI/Modo de exibição de tabela.md",
     "Obsidian/Database/Curso de Excel/Power BI/Dashboard - BI.md",
-    "Obsidian/Database/Garoto de Programa/Linguagens/Modelagem/UML.md",
-    "Annotation/Tarefas.md",
-    "Obsidian/Graphic/Garoto de Programa/Linguagens/Modelagem.md",
-    "Obsidian/Database/Garoto de Programa/Humilde Testador/Assuntos importantes.md",
-    "Obsidian/Database/Garoto de Programa/Arquitetura de Computadores/Sistema de numeração.md",
-    "Obsidian/Database/Garoto de Programa/Arquitetura de Computadores/Arquitetura de Computadores.md",
-    "Obsidian/Database/Garoto de Programa/Arquitetura de Computadores/Hardware.md",
-    "Obsidian/Database/Garoto de Programa/Arquitetura de Computadores/Unidade Central de Processamento (UCP).md",
-    "Annotation/Sem título.md",
-    "Obsidian/Database/Garoto de Programa/Linguagens/Back-end/Linguagem Python/Linguagem Python.md",
-    "Obsidian/Database/Garoto de Programa/Linguagens/Back-end/Linguagem Python/Estrutura de Dados.md",
     "Projetos",
-    "Obsidian/Imagens/Pasted image 20250520201911.png",
-    "Obsidian/Imagens/Pasted image 20250520201810.png",
-    "Obsidian/Imagens/Pasted image 20250515142044.png",
     "Obsidian/Imagens/~syncthing~Pasted image 20250515142044.png.tmp",
-    "Obsidian/Imagens/Pasted image 20250515142453.png",
     "Obsidian/Imagens/~syncthing~Pasted image 20250515142453.png.tmp",
-    "Obsidian/Imagens/Pasted image 20250515135441.png",
-    "Obsidian/Imagens/Pasted image 20250515142023.png",
     "Obsidian/Imagens/~syncthing~Pasted image 20250515142023.png.tmp",
-    "Obsidian/Imagens/Pasted image 20250515131654.png",
-    "Obsidian/Imagens/Pasted image 20250515140510.png",
     "Obsidian/Imagens/~syncthing~Pasted image 20250515140510.png.tmp",
-    "Obsidian/Imagens/Pasted image 20250515140916.png",
     "Obsidian/Imagens/~syncthing~Pasted image 20250515140916.png.tmp",
     "Obsidian/Imagens/~syncthing~Pasted image 20250515131234.png.tmp",
     "Obsidian/Database/Garoto de Programa/Arquitetura de Computadores/Arquitetura de Computadores.canvas"
